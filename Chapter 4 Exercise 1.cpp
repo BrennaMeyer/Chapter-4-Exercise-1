@@ -8,7 +8,36 @@ using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	int num1,
+		num2;
+
+	cout << endl;
+	cout << "Enter The First Number:";
+	cin >> num1;
+	cout << "Enter The Second Number:";
+	cin >> num2;
+	cout << endl;
+
+	if (num1 < num2)
+	{
+		cout << "The First Number(" << num1 << ")";
+		cout << "is the smallest" << endl;
+
+		cout << "The Second Number(" << num2 << ")";
+		cout << "is the largest" << endl;
+		}
+	else
+	{
+		cout << "The First Number(" << num1 << ")";
+		cout << "is the largest" << endl;
+
+		cout << "The Second Number(" << num2 << ")";
+		cout << "is the smallest" << endl;
+	}
+
+	cout << endl;
+
+	return 0;
 }
 
 
